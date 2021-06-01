@@ -42,5 +42,6 @@ public class EmployeeMain extends Employee{
         System.out.println(e.getName());
         System.out.println(e.getAddress());
         System.out.println(e.getMobile());
+        myVar.close();
     }
 }

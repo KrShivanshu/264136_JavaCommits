@@ -45,5 +45,6 @@ public class InningsMain extends Innings{
         i.setRuns(sc.nextInt());
 
         i.displaysInningsDetails();
+        sc.close();
     }
 }
